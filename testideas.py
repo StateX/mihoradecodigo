@@ -1,4 +1,4 @@
-from datetime import * 
+from datetime import date 
 ideas = []
 while True:
 	 recogedor = open('banco_ideas.txt','a+')
@@ -24,3 +24,5 @@ while True:
 	 	 break
 	 else: 
 	 	 print "seleciones una de las 2 senor"	
+
+
