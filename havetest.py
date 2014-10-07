@@ -6,7 +6,7 @@ import re
 
 web =  raw_input("pega aqui la Url: ")
 
-respuesta = urllib2.Request(web)
+respuesta = urllib2.Request('http://'+web)
 
 pagina = urllib2.urlopen(respuesta).read()
 #esto complia la exprsion siguiente
